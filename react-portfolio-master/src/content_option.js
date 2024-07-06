@@ -1,40 +1,26 @@
-const logotext = "JOHN";
+
+const logotext = "SAMEER ALI";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "SAMEER ALI",
+    description: "I’m Sameer Ali Full stack devloper",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Sameer Ali",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I am a Passionate Full Stack Developer",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am a Full stack developer skilled in frontend and backend technologies, creating robust software solutions with expertise in coding, problem-solving, and collaboration",
+    your_img_url: "https://drive.google.com/file/d/1-6-e67i2vbPu0nGhTgkt95h4-xvfaecK/view?usp=sharing",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about my self",
+    aboutme: "Pre-final Year Student in Computer Science ,   Passionate about Technology,   Driven by the fusion of creativity and problem-solving ,  Actively exploring diverse areas like Algorithms, Data Structures, and Machine Learning",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+
 
 const skills = [{
         name: "Python",
@@ -42,103 +28,72 @@ const skills = [{
     },
     {
         name: "Djano",
-        value: 85,
+        value: 75,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 90,
     },
     {
         name: "React",
-        value: 60,
+        value: 80,
     },
     {
         name: "Jquery",
+        value: 80,
+    },
+    {
+        name: "Mongodb",
         value: 85,
     },
 ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "As a dedicated UI/UX designer, I specialize in crafting digital experiences that seamlessly blend aesthetics with functionality",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Developer",
+        description: " As a passionate web developer, I specialize in creating custom-tailored online experiences that reflect your individuality and aspirations. Whether you're an aspiring entrepreneur, a small business owner, or a creative professional, I'm here to translate your ideas into visually stunning and functionally robust websites. ",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Backend Developer",
+        description: "As a seasoned backend developer, I specialize in building robust and scalable foundations for your digital endeavors. From crafting efficient databases to architecting secure APIs, my focus is on delivering backend solutions that power your applications with reliability and performance.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://firmbee.com/wp-content/uploads/template_9_freebees_0_XD-500x300.png",
+        description: "Blog Website",
+        link: "https://github.com/sameer3602/Blog-Website-",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://c8.alamy.com/comp/2DC51Y0/restaurant-application-icon-linear-isolated-illustration-thin-line-vector-web-design-sign-outline-concept-symbol-with-editable-stroke-on-white-2DC51Y0.jpg",
+        description: "Restaurant Management System",
+        link: "#https://github.com/sameer3602/restuarant-management-system",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://t4.ftcdn.net/jpg/06/42/05/07/360_F_642050781_VUPgCpghVNGVC77tc7shMvOcETF50Z4a.jpg",
+        description: "Tour Planner Website",
+        link: "https://github.com/sameer3602/plan-with-sameer",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://img.freepik.com/free-vector/digital-learning-abstract-concept-vector-illustration-digital-distance-education-elearning-flipped-smart-classroom-training-courses-online-teaching-video-call-home-office-abstract-metaphor_335657-5860.jpg",
+        description: "Educational Course Showcaser",
+        link: "#https://github.com/sameer3602/Educational-Courses-website",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://media.istockphoto.com/id/1341097832/vector/icon-illustration-set-of-cart-basket-shopping-mail-order.jpg?s=612x612&w=0&k=20&c=yl7DkXQcy9BbI-n8x25FW4VDbDw0-p-IAidLKU6VWdY=",
+        description: "Shopzy Shopping website",
+        link: "https://github.com/sameer3602/shopzy",
     },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "sameerkhan.1234asd@gmail.com",
+    YOUR_FONE: "91-9971341070",
+    description: "Reach out and let's start a conversation. Your message is the first step towards shaping something remarkable together.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,16 +102,15 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/sameer3602",
+    Instagram: "https://www.instagram.com/samiiir786_/",
+    linkedin: "https://www.linkedin.com/in/sameer-ali-99a40223b/",
+    twitter: "https://twitter.com/Sameer030602",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
     skills,
     services,
     introdata,
