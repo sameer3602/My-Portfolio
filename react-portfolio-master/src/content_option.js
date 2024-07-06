@@ -65,7 +65,7 @@ const services = [{
 const dataportfolio = [{
         img: "https://firmbee.com/wp-content/uploads/template_9_freebees_0_XD-500x300.png",
         description: "Blog Website",
-        link: "https://github.com/sameer3602/Blog-Website-",
+        link: "https://github.com/sameer3602/blog-website",
     },
     {
         img: "https://c8.alamy.com/comp/2DC51Y0/restaurant-application-icon-linear-isolated-illustration-thin-line-vector-web-design-sign-outline-concept-symbol-with-editable-stroke-on-white-2DC51Y0.jpg",
